@@ -15,7 +15,7 @@ match day:
         print("Invalid day")
         
 
-""" char = input("Enter a character: ")
+char = input("Enter a character: ")
 
 match char:
     case 'a':
@@ -29,4 +29,5 @@ match char:
     case 'u':
         print("u is a vowel")
     case _:
-        print("It is s consonant") """
+        print("It is s consonant")
+
