@@ -4,3 +4,5 @@ print("Let's automate the world!")                          # Each print stateme
 
 print(5)                                                    # You can also print numbers directly
 print("Bye")                                                # Printing another string message
+
+print(5+12)                                                 # You can perform arithmetic operations inside print
