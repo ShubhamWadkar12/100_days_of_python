@@ -17,5 +17,21 @@ print(a.count("Shubham"))                                      #counts the occur
 str1 = "Welcome to the world of Python!!!"
 print(str1.endswith("!!!"))                                    #checks if the string ends with the specified suffix
 
+str1 = "Let us start learning DevOps"                          
+print(str1.find("us"))                                         # finds the first occurrence of the specified substring
 
-#Day13
+str1 = "Welcome1"
+print(str1.isalpha())                                          #checks if all characters in the string are alphabetic
+
+str1 = "hello world"
+print(str1.islower())                                          #checks if all characters in the string are lowercase
+
+str2 = "   "
+print(str2.isspace())                                          #checks if all characters in the string are whitespace
+
+str2 = "HELLO WORLD"
+print(str2.startswith("HELLO"))                                #checks if the string starts with the specified prefix
+
+str2 = "HELLO WORLD"
+print(str2.swapcase())                                         #swaps the case of each character in the string
+
