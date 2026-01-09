@@ -7,7 +7,7 @@ print(marks[1])
 print(marks[2])
 print(marks[3])
 print(marks[4]) """
- 
+"""  
 # Initial list of servers
 servers = ["web1", "web2", "db1"]
 
@@ -49,4 +49,8 @@ print("\nFinal servers list:", servers)
 
 servers = ["192.168.1.10", "192.168.1.11"]
 for ip in servers:
-    print(f"Pinging {ip}")
+    print(f"Pinging {ip}") """
+
+l = [1,4,2,3,5,8]                                                   #[1, 2, 3, 4, 5, 8]
+l.sort()
+print(l)
